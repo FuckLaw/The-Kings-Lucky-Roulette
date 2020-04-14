@@ -246,7 +246,7 @@ namespace The_Kings_Lucky_Roulette
             linkLabel2.Text = "HWID: " + HWID + "    -   Giros Restantes: 0";
 
             WebClient web = new WebClient();
-            Stream stream = web.OpenRead("https://cyb3r1nj3ct0r.000webhostapp.com/hwid_roullet.txt");
+            Stream stream = web.OpenRead("Sua hospedagem online");
 
             using (StreamReader reader = new StreamReader(stream))
             {
@@ -274,7 +274,7 @@ namespace The_Kings_Lucky_Roulette
         public void update()
         {
             WebClient web = new WebClient();
-            Stream stream = web.OpenRead("https://cyb3r1nj3ct0r.000webhostapp.com/update_theking.txt");
+            Stream stream = web.OpenRead("Sua hospedagem online");
 
             using (StreamReader reader = new StreamReader(stream))
             {
